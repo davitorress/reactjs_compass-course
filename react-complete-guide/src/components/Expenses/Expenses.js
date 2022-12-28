@@ -1,5 +1,5 @@
 import Card from "../UI/Card";
-import ExpensesFilter from "./ExpensesFilter";
+import ExpenseFilter from "./ExpenseFilter";
 import ExpenseItem from "./ExpenseItem";
 
 import "./Expenses.css";
@@ -14,7 +14,7 @@ function Expenses(props) {
 
 	return (
 		<Card className="expenses">
-			<ExpensesFilter onChangeFilter={filterHandler} />
+			<ExpenseFilter onChangeFilter={filterHandler} />
 
 			{props.items.map((item) => {
 				if (yearFiltered) {
