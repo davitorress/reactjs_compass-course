@@ -6,19 +6,19 @@ import "./Expenses.css";
 import { useState } from "react";
 
 function Expenses(props) {
-	const [yearFiltered, setYearFiltered] = useState("");
+	const [filteredYear, setFilteredYear] = useState("");
 
 	function filterHandler(filter) {
-		setYearFiltered(filter);
+		setFilteredYear(filter);
 	}
 
 	return (
 		<Card className="expenses">
-			<ExpenseFilter onChangeFilter={filterHandler} />
+			<ExpenseFilter selectedYear={filteredYear} onChangeFilter={filterHandler} />
 
 			{props.items.map((item) => {
-				if (yearFiltered) {
-					if (item.date.getFullYear() === +yearFiltered) {
+				if (filteredYear) {
+					if (item.date.getFullYear() === +filteredYear) {
 						return <ExpenseItem key={item.id} title={item.title} amount={item.amount} date={item.date} />;
 					}
 				} else return <ExpenseItem key={item.id} title={item.title} amount={item.amount} date={item.date} />;
