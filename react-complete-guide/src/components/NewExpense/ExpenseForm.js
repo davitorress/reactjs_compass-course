@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./ExpenseForm.css";
 
-function ExpenseForm() {
+function ExpenseForm(props) {
 	const date = new Date();
 	const maxDate = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
 
@@ -39,7 +39,7 @@ function ExpenseForm() {
 			date: new Date(userInput.enteredDate),
 		};
 
-		console.log(expenseData);
+		props.onSaveExpenseData(expenseData);
 		setUserInput({
 			enteredTitle: "",
 			enteredAmount: "",
