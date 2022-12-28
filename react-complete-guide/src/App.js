@@ -23,10 +23,9 @@ function App() {
 	];
 
 	return (
-		<div>
-			<h2>Let's get started!</h2>
+		<main>
 			<Expenses items={expenses} />
-		</div>
+		</main>
 	);
 }
 
