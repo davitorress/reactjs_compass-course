@@ -1,6 +1,6 @@
-import "./ExpenseFilter.css";
+import "./ExpensesFilter.css";
 
-function ExpenseFilter(props) {
+function ExpensesFilter(props) {
 	function filterYearHandler(event) {
 		props.onChangeFilter(event.target.value);
 	}
@@ -21,4 +21,4 @@ function ExpenseFilter(props) {
 	);
 }
 
-export default ExpenseFilter;
+export default ExpensesFilter;
