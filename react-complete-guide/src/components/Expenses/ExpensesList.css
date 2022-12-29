@@ -4,6 +4,7 @@
 }
 
 .expenses-list__fallback {
+	margin: 1rem;
 	color: #fff;
 	text-align: center;
 }
