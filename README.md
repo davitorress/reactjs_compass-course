@@ -13,3 +13,10 @@ Sections
 - [x] Debugging React Apps
 - [x] Time to Practice (Add User Project)
 - [x] Fragments, Portals & Ref's
+- [x] Advanced: Handling Side Effects, Using Reducers and Using Context API
+- [x] Practice Project - Food Order App
+- [x] React behind the scenes
+- [x] Class-based Components
+- [x] Http Requests
+- [x] Custom React Hooks
+- [x] Forms & User Input
