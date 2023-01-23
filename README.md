@@ -20,3 +20,9 @@ Sections
 - [x] Http Requests
 - [x] Custom React Hooks
 - [x] Forms & User Input
+- [x] Diving into Redux
+- [x] Advanced Redux
+- [x] SPA with React Router
+- [x] Authentication to React Apps
+- [x] Deploying React Apps
+- [x] Introduction to Next.js
