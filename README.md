@@ -26,3 +26,6 @@ Sections
 - [x] Authentication to React Apps
 - [x] Deploying React Apps
 - [x] Introduction to Next.js
+- [x] Animating React Apps
+- [x] Replacing Redux with React Hooks
+- [x] Testing React Apps (Unit Tests)
