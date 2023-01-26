@@ -29,3 +29,6 @@ Sections
 - [x] Animating React Apps
 - [x] Replacing Redux with React Hooks
 - [x] Testing React Apps (Unit Tests)
+- [x] React + TypeScript
+- [x] Optional: React Hooks Summary
+- [x] Optional: React Core Features Summary
